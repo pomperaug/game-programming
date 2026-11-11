@@ -1,0 +1,12 @@
+{
+"companyName": "DefaultCompany",
+"productName": "GraviLander_Starter",
+"dataUrl": "BuildedGravi.data.unityweb",
+"wasmCodeUrl": "BuildedGravi.wasm.code.unityweb",
+"wasmFrameworkUrl": "BuildedGravi.wasm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

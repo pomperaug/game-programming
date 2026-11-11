@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta name="robots" content="noindex,nofollow">
+  
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | GraviLander_Starter</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+  <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/build.json", {onProgress: UnityProgress});
+    </script>
+  <style type="text/css">
+<!--
+#apDiv1 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:1;
+	left: 112px;
+	top: 700px;
+}
+-->
+  </style>
+  </head>
+<body>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo">
+        <iframe src="https://drive.google.com/file/d/1lBEvrittV3FlFBYsbqgPSVrEctAVRfPE/preview" width="640" height="480" allow="autoplay"></iframe></div>
+        <div class="fullscreen" onClick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">GraviLander_Starter</div>
+      </div>
+    </div>
+    
+<p style="font:12px sans-serif;color:#888;text-align:center;margin:8px 0">Student project created for classroom learning purposes only. Not for commercial use.</p>
+</body>
+</html>
